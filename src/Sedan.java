@@ -13,7 +13,8 @@ class Sedan extends Vehicle implements Automobile {
     }
 
     @Override
-    public void stop() { System.out.println("Sedan stops at the light."); }
+    public void stop() {
+        System.out.println("Sedan stops at the light."); }
 
     @Override
     public void gas() { System.out.println("Sedan uses regular unleaded."); }

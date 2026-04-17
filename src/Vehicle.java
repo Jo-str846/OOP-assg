@@ -4,7 +4,7 @@ abstract class Vehicle {
 
     public Vehicle(String Brand, int year) {
         this.Brand = Brand;
-        this, year = year;
+        this.year = year;
     }
 
     public abstract void accelerate();
@@ -12,6 +12,6 @@ abstract class Vehicle {
     public abstract void gas();
 
     public void displayInfo() {
-        System.out.println("Year: "+ year + "Brand: "+ Brand);
+        System.out.println("Year: "+ year + "  " + "Brand: "+ Brand);
     }
 }
